@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stezu",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A collection of eslint configurations for my projects.",
   "main": "index.js",
   "scripts": {
