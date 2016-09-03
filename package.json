@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-stezu",
+  "version": "0.0.2",
+  "description": "A collection of eslint configurations for my projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stezu/eslint-config-stezu.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Stephen Zuniga <hello@stephenzuniga.com> (http://stephenzuniga.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stezu/eslint-config-stezu/issues"
+  },
+  "homepage": "https://github.com/stezu/eslint-config-stezu#readme",
+  "dependencies": {
+    "eslint": "^3.4.0",
+    "eslint-plugin-node": "^2.0.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
