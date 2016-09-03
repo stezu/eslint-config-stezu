@@ -20,7 +20,7 @@
     "url": "https://github.com/stezu/eslint-config-stezu/issues"
   },
   "homepage": "https://github.com/stezu/eslint-config-stezu#readme",
-  "dependencies": {
+  "peerDependencies": {
     "eslint": "^3.4.0",
     "eslint-plugin-node": "^2.0.0"
   },
