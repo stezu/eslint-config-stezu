@@ -224,7 +224,7 @@ module.exports = {
 
     // enforce consistent line breaks inside braces
     // http://eslint.org/docs/rules/object-curly-newline
-    'object-curly-newline': ['error', 'always'],
+    'object-curly-newline': 'error',
 
     // enforce consistent spacing inside braces
     // http://eslint.org/docs/rules/object-curly-spacing
