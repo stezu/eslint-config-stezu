@@ -2,10 +2,6 @@ module.exports = {
   env: {
     node: true
   },
-  plugins: [
-    'node'
-  ],
-  extends: ['plugin:node/recommended'],
   rules: {
     // require return statements after callbacks
     // http://eslint.org/docs/rules/callback-return

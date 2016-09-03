@@ -224,11 +224,11 @@ module.exports = {
 
     // enforce consistent line breaks inside braces
     // http://eslint.org/docs/rules/object-curly-newline
-    'object-curly-newline': 'error',
+    'object-curly-newline': 'off',
 
     // enforce consistent spacing inside braces
     // http://eslint.org/docs/rules/object-curly-spacing
-    'object-curly-spacing': 'error',
+    'object-curly-spacing': 'off',
 
     // enforce placing object properties on separate lines
     // http://eslint.org/docs/rules/object-property-newline
