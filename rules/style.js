@@ -50,7 +50,9 @@ module.exports = {
 
     // enforce the consistent use of either function declarations or expressions
     // http://eslint.org/docs/rules/func-style
-    'func-style': 'error',
+    'func-style': ['error', 'declaration', {
+      'allowArrowFunctions': true
+    }],
 
     // disallow specified identifiers
     // http://eslint.org/docs/rules/id-blacklist
@@ -106,7 +108,7 @@ module.exports = {
 
     // enforce a maximum number of parameters in function definitions
     // http://eslint.org/docs/rules/max-params
-    'max-params': 'error',
+    'max-params': ['error', 4],
 
     // enforce a maximum number of statements allowed per line
     // http://eslint.org/docs/rules/max-statements-per-line
