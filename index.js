@@ -10,12 +10,12 @@ module.exports = {
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 7,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   rules: {
 
     // in ES6, we can use big arrows for anonymous functions,
     // there's no reason to not name function expressions
-    'func-names': 'error',
+    'func-names': 'error'
   }
 };

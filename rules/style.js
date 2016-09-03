@@ -98,7 +98,7 @@ module.exports = {
 
     // enforce a maximum number of lines per file
     // http://eslint.org/docs/rules/max-lines
-    'max-lines': 'error',
+    'max-lines': ['error', 500],
 
     // enforce a maximum depth that callbacks can be nested
     // http://eslint.org/docs/rules/max-nested-callbacks
@@ -222,9 +222,7 @@ module.exports = {
 
     // enforce consistent line breaks inside braces
     // http://eslint.org/docs/rules/object-curly-newline
-    'object-curly-newline': ['error', {
-      'minProperties': 3
-    }],
+    'object-curly-newline': ['error', 'always'],
 
     // enforce consistent spacing inside braces
     // http://eslint.org/docs/rules/object-curly-spacing

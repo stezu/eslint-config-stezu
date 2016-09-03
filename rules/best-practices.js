@@ -110,7 +110,9 @@ module.exports = {
 
     // disallow most implicit type conversions
     // http://eslint.org/docs/rules/no-implicit-coercion
-    'no-implicit-coercion': ['error', 'allow': ['!!']],
+    'no-implicit-coercion': ['error', {
+      'allow': ['!!']
+    }],
 
     // disallow var and named functions in global scope
     // http://eslint.org/docs/rules/no-implicit-globals
@@ -142,7 +144,7 @@ module.exports = {
 
     // disallow magic numbers
     // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': 'off'],
+    'no-magic-numbers': 'off',
 
     // disallow use of multiple spaces
     // http://eslint.org/docs/rules/no-multi-spaces
@@ -176,7 +178,9 @@ module.exports = {
     // disallow reassignment of function parameters
     // disallow parameter object manipulation
     // http://eslint.org/docs/rules/no-param-reassign
-    'no-param-reassign': ['error', { props: true }],
+    'no-param-reassign': ['error', {
+      'props': true
+    }],
 
     // disallow usage of __proto__ property
     // http://eslint.org/docs/rules/no-proto
