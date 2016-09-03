@@ -1,9 +1,10 @@
 {
   "name": "eslint-config-stezu",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A collection of eslint configurations for my projects.",
   "main": "index.js",
   "scripts": {
+    "prepublish": "safe-publish-latest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,8 @@
   },
   "engines": {
     "node": ">= 4"
+  },
+  "devDependencies": {
+    "safe-publish-latest": "^1.0.1"
   }
 }
