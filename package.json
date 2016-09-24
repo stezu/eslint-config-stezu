@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stezu",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A collection of eslint configurations for my projects.",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,6 @@
     "url": "https://github.com/stezu/eslint-config-stezu/issues"
   },
   "homepage": "https://github.com/stezu/eslint-config-stezu#readme",
-  "peerDependencies": {
-    "eslint": "^3.4.0"
-  },
   "engines": {
     "node": ">= 4"
   },
