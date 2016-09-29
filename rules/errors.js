@@ -88,10 +88,6 @@ module.exports = {
     // http://eslint.org/docs/rules/no-sparse-arrays
     'no-sparse-arrays': 'error',
 
-    // disallow template literal placeholder syntax in regular strings
-    // http://eslint.org/docs/rules/no-template-curly-in-string
-    'no-template-curly-in-string': 'error',
-
     // disallow confusing multiline expressions
     // http://eslint.org/docs/rules/no-unexpected-multiline
     'no-unexpected-multiline': 'error',
@@ -103,10 +99,6 @@ module.exports = {
     // disallow control flow statements in finally blocks
     // http://eslint.org/docs/rules/no-unsafe-finally
     'no-unsafe-finally': 'error',
-
-    // disallow negating the left operand of relational operators
-    // http://eslint.org/docs/rules/no-unsafe-negation
-    'no-unsafe-negation': 'error',
 
     // require calls to isNaN() when checking for NaN
     // http://eslint.org/docs/rules/use-isnan

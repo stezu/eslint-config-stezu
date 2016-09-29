@@ -40,10 +40,6 @@ module.exports = {
     // http://eslint.org/docs/rules/eol-last
     'eol-last': 'error',
 
-    // require or disallow spacing between function identifiers and their invocations
-    // http://eslint.org/docs/rules/func-call-spacing
-    'func-call-spacing': 'error',
-
     // require or disallow named function expressions
     // http://eslint.org/docs/rules/func-names
     'func-names': 'warn',
@@ -120,10 +116,6 @@ module.exports = {
       'ignoreTopLevelFunctions': true
     }],
 
-    // enforce newlines between operands of ternary expressions
-    // http://eslint.org/docs/rules/multiline-ternary
-    'multiline-ternary': 'error',
-
     // require constructor function names to begin with a capital letter
     // http://eslint.org/docs/rules/new-cap
     'new-cap': 'error',
@@ -197,10 +189,6 @@ module.exports = {
     // disallow specified syntax
     // http://eslint.org/docs/rules/no-restricted-syntax
     'no-restricted-syntax': 'off',
-
-    // disallow tabs in file
-    // http://eslint.org/docs/rules/no-tabs
-    'no-tabs': 'error',
 
     // disallow ternary operators
     // http://eslint.org/docs/rules/no-ternary

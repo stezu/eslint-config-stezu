@@ -6,7 +6,8 @@ module.exports = {
     './rules/style.js',
     './rules/strict.js',
     './rules/variables.js',
-    './rules/es6.js'
+    './rules/es6.js',
+    './rules/eslint3.js'
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 7,

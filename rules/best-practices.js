@@ -12,10 +12,6 @@ module.exports = {
     // http://eslint.org/docs/rules/block-scoped-var
     'block-scoped-var': 'error',
 
-    // if a class method doesn't use `this`, it should be made static
-    // http://eslint.org/docs/rules/class-methods-use-this
-    'class-methods-use-this': 'error',
-
     // specify the maximum cyclomatic complexity allowed in a program
     // http://eslint.org/docs/rules/complexity
     'complexity': ['error', 5],
@@ -103,10 +99,6 @@ module.exports = {
     // disallow the use of leading or trailing decimal points in numeric literals
     // http://eslint.org/docs/rules/no-floating-decimal
     'no-floating-decimal': 'error',
-
-    // disallow reassignments of native objects or read-only globals
-    // http://eslint.org/docs/rules/no-global-assign
-    'no-global-assign': 'error',
 
     // disallow most implicit type conversions
     // http://eslint.org/docs/rules/no-implicit-coercion
