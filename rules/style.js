@@ -256,7 +256,9 @@ module.exports = {
 
     // enforce the consistent use of single quotes
     // http://eslint.org/docs/rules/quotes
-    'quotes': ['error', 'single'],
+    'quotes': ['error', 'single', {
+      'avoidEscape': true
+    }],
 
     // require JSDoc comments
     // http://eslint.org/docs/rules/require-jsdoc
