@@ -50,7 +50,9 @@ module.exports = {
 
     // disallow unnecessary parentheses
     // http://eslint.org/docs/rules/no-extra-parens
-    'no-extra-parens': 'error',
+    'no-extra-parens': ['error', 'all', {
+      'nestedBinaryExpressions': false
+    }],
 
     // disallow unnecessary semicolons
     // http://eslint.org/docs/rules/no-extra-semi
