@@ -1,15 +1,8 @@
 module.exports = {
-  env: {
-    es6: true
-  },
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module'
-  },
   rules: {
     // require braces around arrow function bodies
     // http://eslint.org/docs/rules/arrow-body-style
-    'arrow-body-style': ['error', 'always'],
+    'arrow-body-style': 'error',
 
     // require parentheses around arrow function arguments
     // http://eslint.org/docs/rules/arrow-parens

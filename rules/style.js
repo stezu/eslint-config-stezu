@@ -64,7 +64,9 @@ module.exports = {
 
     // enforce consistent indentation
     // http://eslint.org/docs/rules/indent
-    'indent': ['error', 2],
+    'indent': ['error', 2, {
+      'SwitchCase': 1
+    }],
 
     // enforce the consistent use of either double or single quotes in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes

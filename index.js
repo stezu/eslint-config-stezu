@@ -13,6 +13,9 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: 'module'
   },
+  env: {
+    es6: true
+  },
   rules: {
 
     // in ES6, we can use big arrows for anonymous functions,
