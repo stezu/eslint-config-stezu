@@ -60,7 +60,9 @@ module.exports = {
 
     // A bind call or arrow function in a JSX prop will create a brand new function on every single render
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
-    'react/jsx-no-bind': 'error',
+    'react/jsx-no-bind': ['error', {
+      'ignoreRefs': true
+    }],
 
     // This rule prevents comment strings from being accidentally injected as a text node in JSX statements
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
