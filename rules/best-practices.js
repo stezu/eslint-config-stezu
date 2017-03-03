@@ -58,7 +58,7 @@ module.exports = {
 
     // disallow division operators explicitly at beginning of regular expression
     // http://eslint.org/docs/rules/no-div-regex
-    'no-div-regex': 'warn',
+    'no-div-regex': 'off',
 
     // disallow else after a return in an if
     // http://eslint.org/docs/rules/no-else-return
