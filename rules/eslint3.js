@@ -3,7 +3,7 @@ module.exports = {
 
     // if a class method doesn't use `this`, it should be made static
     // http://eslint.org/docs/rules/class-methods-use-this
-    'class-methods-use-this': 'error',
+    'class-methods-use-this': 'warn',
 
     // disallow reassignments of native objects or read-only globals
     // http://eslint.org/docs/rules/no-global-assign
@@ -23,7 +23,7 @@ module.exports = {
 
     // enforce newlines between operands of ternary expressions
     // http://eslint.org/docs/rules/multiline-ternary
-    'multiline-ternary': 'error',
+    'multiline-ternary': 'off',
 
     // disallow tabs in file
     // http://eslint.org/docs/rules/no-tabs

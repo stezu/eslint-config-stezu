@@ -186,11 +186,13 @@ module.exports = {
 
     // Stateless React Components should be written as pure functions
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
-    'react/prefer-stateless-function': 'error',
+    'react/prefer-stateless-function': ['error', {
+      ignorePureComponents: true
+    }],
 
     // Enforce the use of PropTypes in all components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-    'react/prop-types': 'error',
+    'react/prop-types': 'warn',
 
     // The React variable must be in scope when using JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md

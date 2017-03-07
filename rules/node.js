@@ -39,7 +39,7 @@ module.exports = {
     'no-process-exit': 'error',
 
     // disallow specified modules when loaded by require
-    // http://eslint.org/docs/rules/no-restricted
+    // http://eslint.org/docs/rules/no-restricted-modules
     'no-restricted-modules': 'off',
 
     // disallow synchronous methods
