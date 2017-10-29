@@ -46,7 +46,7 @@ module.exports = {
 
     // disallow specified modules when loaded by import
     // http://eslint.org/docs/rules/no-restricted-imports
-    'no-restricted-imports': 'off',
+    // 'no-restricted-imports': 'off',
 
     // disallow this/super before calling super() in constructors
     // http://eslint.org/docs/rules/no-this-before-super
@@ -106,7 +106,7 @@ module.exports = {
 
     // enforce sorted import declarations within modules
     // http://eslint.org/docs/rules/sort-imports
-    'sort-imports': 'off',
+    // 'sort-imports': 'off',
 
     // require symbol descriptions
     // http://eslint.org/docs/rules/symbol-description

@@ -58,7 +58,7 @@ module.exports = {
 
     // disallow division operators explicitly at beginning of regular expression
     // http://eslint.org/docs/rules/no-div-regex
-    'no-div-regex': 'off',
+    // 'no-div-regex': 'off',
 
     // disallow else after a return in an if
     // http://eslint.org/docs/rules/no-else-return
@@ -136,7 +136,7 @@ module.exports = {
 
     // disallow magic numbers
     // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': 'off',
+    // 'no-magic-numbers': 'off',
 
     // disallow use of multiple spaces
     // http://eslint.org/docs/rules/no-multi-spaces

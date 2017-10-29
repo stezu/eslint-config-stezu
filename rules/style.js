@@ -42,7 +42,7 @@ module.exports = {
 
     // require or disallow named function expressions
     // http://eslint.org/docs/rules/func-names
-    'func-names': 'off',
+    // 'func-names': 'off',
 
     // enforce the consistent use of either function declarations or expressions
     // http://eslint.org/docs/rules/func-style
@@ -52,15 +52,15 @@ module.exports = {
 
     // disallow specified identifiers
     // http://eslint.org/docs/rules/id-blacklist
-    'id-blacklist': 'off',
+    // 'id-blacklist': 'off',
 
     // enforce minimum and maximum identifier lengths
     // http://eslint.org/docs/rules/id-length
-    'id-length': 'off',
+    // 'id-length': 'off',
 
     // require identifiers to match a specified regular expression
     // http://eslint.org/docs/rules/id-match
-    'id-match': 'off',
+    // 'id-match': 'off',
 
     // enforce consistent indentation
     // http://eslint.org/docs/rules/indent
@@ -152,7 +152,7 @@ module.exports = {
 
     // disallow inline comments after code
     // http://eslint.org/docs/rules/no-inline-comments
-    'no-inline-comments': 'off',
+    // 'no-inline-comments': 'off',
 
     // disallow if statements as the only statement in else blocks
     // http://eslint.org/docs/rules/no-lonely-if
@@ -190,11 +190,11 @@ module.exports = {
 
     // disallow specified syntax
     // http://eslint.org/docs/rules/no-restricted-syntax
-    'no-restricted-syntax': 'off',
+    // 'no-restricted-syntax': 'off',
 
     // disallow ternary operators
     // http://eslint.org/docs/rules/no-ternary
-    'no-ternary': 'off',
+    // 'no-ternary': 'off',
 
     // disallow trailing whitespace at the end of lines
     // http://eslint.org/docs/rules/no-trailing-spaces
@@ -214,11 +214,11 @@ module.exports = {
 
     // enforce consistent line breaks inside braces
     // http://eslint.org/docs/rules/object-curly-newline
-    'object-curly-newline': 'off',
+    // 'object-curly-newline': 'off',
 
     // enforce consistent spacing inside braces
     // http://eslint.org/docs/rules/object-curly-spacing
-    'object-curly-spacing': 'off',
+    // 'object-curly-spacing': 'off',
 
     // enforce placing object properties on separate lines
     // http://eslint.org/docs/rules/object-property-newline
@@ -250,7 +250,7 @@ module.exports = {
 
     // require or disallow padding within blocks
     // http://eslint.org/docs/rules/padded-blocks
-    'padded-blocks': 'off',
+    // 'padded-blocks': 'off',
 
     // require quotes around object literal property names
     // http://eslint.org/docs/rules/quote-props
@@ -264,7 +264,7 @@ module.exports = {
 
     // require JSDoc comments
     // http://eslint.org/docs/rules/require-jsdoc
-    'require-jsdoc': 'off',
+    // 'require-jsdoc': 'off',
 
     // enforce consistent spacing before and after semicolons
     // http://eslint.org/docs/rules/semi-spacing
@@ -276,15 +276,15 @@ module.exports = {
 
     // requires object keys to be sorted
     // http://eslint.org/docs/rules/sort-keys
-    'sort-keys': 'off',
+    // 'sort-keys': 'off',
 
     // require variables within the same declaration block to be sorted
     // http://eslint.org/docs/rules/sort-vars
-    'sort-vars': 'off',
+    // 'sort-vars': 'off',
 
     // enforce consistent spacing before blocks
     // http://eslint.org/docs/rules/space-before-blocks
-    'space-before-blocks': 'off',
+    // 'space-before-blocks': 'off',
 
     // enforce consistent spacing before function definition opening parenthesis
     // http://eslint.org/docs/rules/space-before-function-paren

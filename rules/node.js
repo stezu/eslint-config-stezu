@@ -40,7 +40,7 @@ module.exports = {
 
     // disallow specified modules when loaded by require
     // http://eslint.org/docs/rules/no-restricted-modules
-    'no-restricted-modules': 'off',
+    // 'no-restricted-modules': 'off',
 
     // disallow synchronous methods
     // http://eslint.org/docs/rules/no-sync

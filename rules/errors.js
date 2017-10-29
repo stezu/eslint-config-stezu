@@ -80,7 +80,7 @@ module.exports = {
 
     // disallow calling some Object.prototype methods directly on objects
     // http://eslint.org/docs/rules/no-prototype-builtins
-    'no-prototype-builtins': 'off',
+    // 'no-prototype-builtins': 'off',
 
     // disallow multiple spaces in regular expressions
     // http://eslint.org/docs/rules/no-regex-spaces
@@ -108,7 +108,7 @@ module.exports = {
 
     // enforce valid JSDoc comments
     // http://eslint.org/docs/rules/valid-jsdoc
-    'valid-jsdoc': 'off',
+    // 'valid-jsdoc': 'off',
 
     // enforce comparing typeof expressions against valid strings
     // http://eslint.org/docs/rules/valid-typeof

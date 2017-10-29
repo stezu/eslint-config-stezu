@@ -2,11 +2,11 @@ module.exports = {
   rules: {
     // DisplayName allows you to name your component. This name is used by React in debugging messages.
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-    'react/display-name': 'warn',
+    // 'react/display-name': 'warn',
 
     // Forbid style props on components to reduce complexity
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
-    'react/forbid-component-props': 'off',
+    // 'react/forbid-component-props': 'off',
 
     // Prevent vague prop types with more specific alternatives available (any, array, object)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
@@ -90,7 +90,7 @@ module.exports = {
 
     // Enforce props alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
-    'react/jsx-sort-props': 'off',
+    // 'react/jsx-sort-props': 'off',
 
     // Enforce spaces before the closing bracket of self-closing JSX elements.
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
@@ -122,7 +122,7 @@ module.exports = {
 
     // Prevent problem with children and props.dangerouslySetInnerHTML
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md
-    'react/no-danger-with-children': 'off',
+    // 'react/no-danger-with-children': 'off',
 
     // Prevent usage of dangerous JSX properties
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
@@ -162,7 +162,7 @@ module.exports = {
 
     // Prevent usage of setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
-    'react/no-set-state': 'error',
+    // 'react/no-set-state': 'error',
 
     // Prevent using string references
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
@@ -204,7 +204,7 @@ module.exports = {
 
     // DEPRECATED
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-extension.md
-    'react/require-extension': 'off',
+    // 'react/require-extension': 'off',
 
     // React components should have a shouldComponentUpdate method
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
@@ -220,11 +220,11 @@ module.exports = {
 
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
-    'react/sort-comp': 'off',
+    // 'react/sort-comp': 'off',
 
     // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
-    'react/sort-prop-types': 'off',
+    // 'react/sort-prop-types': 'off',
 
     // Enforce style prop value being an object
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md

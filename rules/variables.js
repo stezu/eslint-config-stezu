@@ -2,7 +2,7 @@ module.exports = {
   rules: {
     // require or disallow initialization in var declarations
     // http://eslint.org/docs/rules/init-declarations
-    'init-declarations': 'off',
+    // 'init-declarations': 'off',
 
     // disallow catch clause parameters from shadowing variables in the outer scope
     // http://eslint.org/docs/rules/no-catch-shadow
@@ -18,7 +18,7 @@ module.exports = {
 
     // disallow specified global variables
     // http://eslint.org/docs/rules/no-restricted-globals
-    'no-restricted-globals': 'off',
+    // 'no-restricted-globals': 'off',
 
     // disallow identifiers from shadowing restricted names
     // http://eslint.org/docs/rules/no-shadow-restricted-names

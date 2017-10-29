@@ -19,14 +19,14 @@ module.exports = {
 
     // require or disallow spacing between function identifiers and their invocations
     // http://eslint.org/docs/rules/func-call-spacing
-    'func-call-spacing': 'error',
+    'func-call-spacing': 'error'
 
     // enforce newlines between operands of ternary expressions
     // http://eslint.org/docs/rules/multiline-ternary
-    'multiline-ternary': 'off',
+    // 'multiline-ternary': 'off',
 
     // disallow tabs in file
     // http://eslint.org/docs/rules/no-tabs
-    'no-tabs': 'error',
+    // 'no-tabs': 'off'
   }
 };
