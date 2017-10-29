@@ -116,7 +116,7 @@ module.exports = {
 
     // disallow this keywords outside of classes or class-like objects
     // http://eslint.org/docs/rules/no-invalid-this
-    'no-invalid-this': 'warn',
+    // 'no-invalid-this': 'warn',
 
     // disallow usage of __iterator__ property
     // http://eslint.org/docs/rules/no-iterator
