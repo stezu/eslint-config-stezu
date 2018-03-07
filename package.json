@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stezu",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "A collection of eslint configurations for my projects.",
   "main": "index.js",
   "scripts": {
@@ -28,8 +28,10 @@
     "safe-publish-latest": "^1.0.1"
   },
   "optionalDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.13.1",
-    "eslint-plugin-react": "^6.9.0"
+    "babel-eslint": ">= 6.0.0",
+    "eslint-plugin-react": ">= 6.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3.0.0"
   }
 }
